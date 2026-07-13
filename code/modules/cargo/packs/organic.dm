@@ -454,3 +454,43 @@
 	contains = list(
 		/obj/item/soil_sack/worm = 3,
 	)
+
+/datum/supply_pack/organic/dead_trees
+	name = "Dead Trees Crate"
+	desc = "Some green trees for your personal garden. Wait a minute..."
+	cost = CARGO_CRATE_VALUE * 8 // 40*2 wood planks from 2 trees
+	contains = list(/obj/structure/flora/tree/dead/style_random = 2)
+	crate_name = "dead trees crate"
+	crate_type = /obj/structure/closet/crate/large
+
+/datum/supply_pack/organic/jungle_trees
+	name = "Jungle Trees Crate"
+	desc = "Some large jungle trees for your personal green hell. Usually safe."
+	cost = CARGO_CRATE_VALUE * 10 // 60*2 wood planks from 2 trees
+	contains = list(/obj/structure/flora/tree/jungle/style_random = 2)
+	crate_name = "jungle trees crate"
+	crate_type = /obj/structure/closet/crate/large
+
+/datum/supply_pack/organic/jungle_trees_small
+	name = "Small Jungle Trees Crate"
+	desc = "For those who don't care about size"
+	cost = CARGO_CRATE_VALUE * 9 // 50*2 wood planks from 2 trees
+	contains = list(/obj/structure/flora/tree/jungle/small/style_random = 2)
+	crate_name = "small jungle trees crate"
+	crate_type = /obj/structure/closet/crate/large
+
+/datum/supply_pack/organic/pine_trees
+	name = "Pine Trees Crate"
+	desc = "10% trees. 90% snow."
+	cost = CARGO_CRATE_VALUE * 8 // 40*2 wood planks from 2 trees
+	contains = list(/obj/structure/flora/tree/pine/style_random = 2)
+	crate_name = "pine trees crate"
+	crate_type = /obj/structure/closet/crate/large
+
+/datum/supply_pack/organic/palm_trees
+	name = "Palm Trees Crate"
+	desc = "The supply pack does not include the beach, warm water and vacation"
+	cost = CARGO_CRATE_VALUE * 9 // 50*2 wood planks from 2 trees
+	contains = list(/obj/structure/flora/tree/palm/style_random = 2)
+	crate_name = "palm trees crate"
+	crate_type = /obj/structure/closet/crate/large
